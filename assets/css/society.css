@@ -1,0 +1,91 @@
+.tab-content-title
+{
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tab-content-para
+{
+    width: 80%;
+    float: left;
+    padding-left: 20px;
+    border-left: 1px solid #aaa;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.margin-content
+{
+    margin-top: 20px;
+}
+
+.society-title
+{
+    font-size: 30px;
+    font-family: 'Roboto';
+    margin-top: 20px;
+    background: #fff;
+    padding: 15px;
+    position: relative;
+}
+
+
+.society-title-date
+{
+    line-height: 18px;
+    position: relative;
+    padding: 0 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    color: #9a9a9a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-content-para
+{
+    font-size: 17px;
+    font-weight: 500px;
+}
+
+.main-content-link
+{
+    color:rgb(180,1,59);
+    text-decoration: underline;
+}
+
+.main-content-margin
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.main-tittle-content-margin
+{
+    margin-top: 60px;
+    margin-bottom: 6px;
+}
+
+.video-responsive
+{
+    display: block;
+     max-width: 100%;
+    position: static;
+    height: auto;
+    width: 100%;
+    margin-bottom: .6em;
+}
+
+.main-content-tainer
+{
+    display: flex;
+    
+}
+
+.img-wrapper2
+{
+    margin-top: 80px;
+    position: relative;
+}

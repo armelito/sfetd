@@ -1,0 +1,603 @@
+CTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>I-news</title>
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/images/ico/favicon.png" type="image/x-icon">
+        <link rel="apple-touch-icon" type="image/x-icon" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+
+        <!-- jquery ui css -->
+        <link href="assets/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!--Animate css-->
+        <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css"/>
+        <!-- Navigation css-->
+        <link href="assets/bootsnav/css/bootsnav.css" rel="stylesheet" type="text/css"/>
+        <!-- youtube css -->
+        <link href="assets/css/RYPP.css" rel="stylesheet" type="text/css"/>
+        <!-- font awesome -->
+        <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <!-- themify-icons -->
+        <link href="assets/themify-icons/themify-icons.css" rel="stylesheet" type="text/css"/>
+        <!-- weather-icons -->
+        <link href="assets/weather-icons/css/weather-icons.min.css" rel="stylesheet" type="text/css"/>
+        <!-- flat icon -->
+        <link href="assets/css/flaticon.css" rel="stylesheet" type="text/css"/>
+        <!-- Important Owl stylesheet -->
+        <link href="assets/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <!-- Default Theme -->
+        <link href="assets/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css"/>
+        <!-- owl transitions -->
+        <link href="assets/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css"/>
+        <!-- style css -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- PAGE LOADER -->
+        <div class="se-pre-con"></div>
+        <!-- *** START PAGE HEADER SECTION *** -->
+        <header>
+            <!-- START HEADER TOP SECTION -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6">
+                            <!-- Start header social -->
+                            <div class="header-social">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="hidden-xs"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- End of /. header social -->
+                        </div>
+                        <!-- Start header top right menu -->
+                        <div class="hidden-xs col-md-6 col-sm-6 col-lg-6">
+                            <div class="header-right-menu">
+                                <ul>
+                                    <li><a href="#">Offres d'emploi</a></li>
+                                    <li><a href="#">Devenir membre</a></li>
+                                    <li><a href="#"><i class="fa fa-lock"></i>  Connexion espace membre</a></li>
+                                </ul>
+                            </div>
+                        </div> <!-- end of /. header top right menu -->
+                    </div> <!-- end of /. row -->
+                </div> <!-- end of /. container -->
+            </div>
+            <!-- END OF /. HEADER TOP SECTION -->
+            <!-- START MIDDLE SECTION -->
+            <div class="header-mid hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/logo.png" class="img-responsive" width="262" height="76" alt="logo"></a>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="header-middle-menu">
+                                <ul>
+                                    <li><a href="#">ACTUALITÉ</a></li>
+                                    <li><a href="#">AGENDA</a></li>
+                                    <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF /. MIDDLE SECTION -->
+            <!-- START NAVIGATION -->
+            <nav class="navbar navbar-default navbar-sticky navbar-mobile bootsnav">
+                <!-- Start Top Search -->
+                <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Type to search something">
+                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Top Search -->
+                <div class="container">            
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="index.html"><img src="assets/images/logo.png" class="logo" alt=""></a>
+                    </div>
+                    <!-- End Header Navigation -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-left" data-in="" data-out="">
+                            <li class="dropdown active">
+                                <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" >LA SFETD</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="society.html">Société savante</a></li>
+                                    <li><a href="society.html">Livre blanc</a></li>
+                                    <li><a href="society.html">Au delà des frontières<span class="menu-badge">NEW</span></a></li>
+                                    <li><a href="index_2.html">Devenir membre</a></li>
+                                    <li><a href="index_3.html">Grands projets<span class="menu-badge">NEW</span></a></li>
+                                    <li><a href="society.html">Ils nous soutiennent<span class="menu-badge">NEW</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >ESPACE PRO<span class="menu-badge">NEW</span></a></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Structure douleur : organisation territoriale</a></li>
+                                    <li><a href="#">Commissions  et travaux</a></li>
+                                    <li><a href="#">Recos et référentiels</a></li>
+                                    <li><a href="#">Textes réglementaires</a></li>
+                                    <li><a href="#">Revue douleur et analgésie</a></li>
+                                    <li><a href="#">Pv assemblée générale</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >GRAND PUBLIC</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">La douleur en question<span class="menu-badge">NEW</span></a></li>
+                                    <li><a href="#">Chaîne youtube et vidéos</a></li>
+                                    <li><a href="#">Associations de patient</a></li>
+                                    <li><a href="#">Faire un don</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >RECHERCHE/ENSEIGNEMENT</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Collège des enseignent</a></li>
+                                    <li><a href="#">FST douleur </a></li>
+                                    <li><a href="#">Universités IDE</a></li>
+                                    <li><a href="#">Universités psy</a></li>
+                                    <li><a href="#">Ecole douleur SFETD</a></li>
+                                    <li><a href="#">Réseau inserm</a></li>
+                                    <li><a href="#">Travaux de recherche</a></li>
+                                    <li><a href="#">Autres formations</a></li>
+                                    <li><a href="#">Fond d’actions douleur</a></li>
+                                    <li><a href="#">Prix et appel d’offre</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >RESSOURCES DOCUMENTAIRES<span class="menu-badge">NEW</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Ressources documentaires</a></li>
+                                    <li><a href="#">Textes réglementaires</a></li>
+                                    <li><a href="#">Cahiers sfetd</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >CONGRÈS<span class="menu-badge">NEW</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Congrès</a></li>
+                                    <li><a href="#">Journées thématiques</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >BOITE À OUTILS<span class="menu-badge">NEW</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Échelles</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+            <!-- END OF/. NAVIGATION -->
+        </header>
+        <!-- *** END OF /. PAGE HEADER SECTION *** -->
+        <!-- *** START PAGE MAIN CONTENT *** -->
+        <main class="page_main_wrapper">
+            <!-- START POST BLOCK SECTION -->
+            <section class="slider-inner">
+                <div class="container">
+                    <div class="row thm-margin">
+                        <div class="col-xs-12 col-sm-8 col-md-8 thm-padding">
+                            <div class="slider-wrapper">
+                                <div id="owl-slider" class="owl-carousel owl-theme">
+                                    <!-- Slider item one -->
+                                    <div class="item">
+                                        <div class="slider-post post-height-1">
+                                            <a href="#" class="news-image"><img src="assets/images/backgroundCongrès.jpg" width="696" height="460" alt="" class="img-responsive"></a>
+                                            <div class="post-text">
+                                                <span class="post-category">Actualité</span>
+                                                <h2><a href="#">Le 18e congrès de la SFETD se déroulera du 14 au 16 novembre au Palais des Congrès de Lilles</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /.Slider item one -->
+                                    <!-- Slider item two -->
+                                    <div class="item">
+                                        <div class="slider-post post-height-1">
+                                            <a href="#" class="news-image"><img src="assets/images/carou.jpg" width="696" height="460" alt="" class="img-responsive"></a>
+                                            <div class="post-text">
+                                                <span class="post-category">Actualité</span>
+                                                <h2><a href="#">Le 18e congrès de la SFETD se déroulera du 14 au 16 novembre au Palais des Congrès de Lilles</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /.Slider item two -->
+                                    <!-- Slider item three -->
+                                    <div class="item">
+                                        <div class="slider-post post-height-1">
+                                            <a href="#" class="news-image"><img src="assets/images/carou2.jpg" width="696" height="460" alt="" class="img-responsive"></a>
+                                            <div class="post-text">
+                                                <span class="post-category">Actualité</span>
+                                                <h2><a href="#">Le 18e congrès de la SFETD se déroulera du 14 au 16 novembre au Palais des Congrès de Lilles</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /.Slider item three -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 thm-padding">
+                            <div class="row slider-right-post thm-margin">
+                                <div class="col-xs-6 col-sm-12 col-md-12 thm-padding">
+                                    <div class="slider-post post-height-2">
+                                        <a href="#" class="news-image"><img src="assets/images/last8.jpg" width="696" height="460" alt="" class="img-responsive"></a>
+                                        <div class="post-text">
+                                            <span class="post-category">Actualité</span>
+                                            <h4><a href="#">Appel à projet de recherche 2018</a></h4>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-12 col-md-12 thm-padding">
+                                    <div class="slider-post post-height-2">
+                                        <a href="#" class="news-image"><img src="assets/images/actu4.jpg" width="696" height="460" alt="" class="img-responsive"></a>
+                                        <div class="post-text">
+                                            <span class="post-category">Actualité</span>
+                                            <h4><a href="#">Appel à cotisations 2018</a></h4>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END OF /. POST BLOCK SECTION -->
+            <div class="container">
+                <div class="row row-m">
+                    <!-- START MAIN CONTENT -->
+                    <div class="col-sm-8 col-p main-content">
+                        <div class="theiaStickySidebar">
+                            <!-- START POST CATEGORY STYLE FOUR (Latest articles ) -->
+                            <div class="post-inner">
+                                    <!--post header-->
+                                    <div class="post-head">
+                                        <h2 class="title"><strong>Dernières</strong> publications</h2>
+                                    </div>
+                                    <!-- post body -->
+                                    <div class="post-body">
+                                        <div class="news-list-item articles-list">
+                                            <div class="img-wrapper">
+                                                <a href="#" class="thumb"><img src="assets/images/last2.jpg" width="218" height="150" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="post-info-2">
+                                                <h4><a href="#" class="title">Journée BEST OF universités infirmières SFETD - ANNULÉE</a></h4>
+                                                <ul class="authar-info">
+                                                    <li><i class="ti-timer"></i>30 mai 2016</li>
+                                                </ul>
+                                                <p class="hidden-sm">La Commission infirmière vous donne RDV le jeudi 19 septembre 2019 à l'HEGP (programme et inscriptions fin 2018)</p>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-item articles-list">
+                                            <div class="img-wrapper">
+                                                <a href="#" class="thumb"><img src="assets/images/last1.jpg" width="218" height="150" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="post-info-2">
+                                                <h4><a href="#" class="title">BEST OF Universités psychologues SFETD - ANNULÉE</a></h4>
+                                                <ul class="authar-info">
+                                                    <li><i class="ti-timer"></i>28 mai 2016</li>
+                                                </ul>
+                                                <p class="hidden-sm">La Commission psychologue vous donne RDV le vendredi 22 mars 2019 à l'HEGP (programme et inscriptions fin 2018)</p>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-item articles-list">
+                                            <div class="img-wrapper">
+                                                <a href="#" class="thumb"><img src="assets/images/last3.jpg" width="218" height="150" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="post-info-2">
+                                                <h4><a href="#" class="title">Info douleur & cancer</a></h4>
+                                                <ul class="authar-info">
+                                                    <li><i class="ti-timer"></i>20 mai 2016</li>
+                                                </ul>
+                                                <p class="hidden-sm">Parmi les difficultés objectivées pour optimiser la prise en charge de la douleur du cancer en France figure l¹accès insuffisant aux médecins spécialistes de la douleur du cancer et à leurs équipes...</p>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-item articles-list">
+                                            <div class="img-wrapper">
+                                                <a href="#" class="thumb"><img src="assets/images/last5.jpg" width="218" height="150" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="post-info-2">
+                                                <h4><a href="#" class="title">DOULEUR et ANALGESIE : revue officielle de la SFETD en 2018 !</a></h4>
+                                                <ul class="authar-info">
+                                                    <li><i class="ti-timer"></i>10 mai 2016</li>
+                                                </ul>
+                                                <p class="hidden-sm">La SFETD et les éditions LAVOISIER ont contractualisé un partenariat pour 2018. Afin de réunir les forces vives du champ de la douleur francophone, la revue DOULEUR et ANALGESIE devient officiellement ...</p>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-item articles-list">
+                                            <div class="img-wrapper">
+                                                <a href="#" class="thumb"><img src="assets/images/last4.jpg"width="218" height="150" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="post-info-2">
+                                                <h4><a href="#" class="title">Avis au structure douleur chronique de France</a></h4>
+                                                <ul class="authar-info">
+                                                    <li><i class="ti-timer"></i>28 avril 2016</li>
+                                                </ul>
+                                                <p class="hidden-sm">L’actualisation pour 2018 de l’annuaire rassemblant les coordonnées des structures d’étude et de traitement de la douleur chronique (SDC) identifiées par les ARS ...</p>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-item articles-list">
+                                            <div class="img-wrapper">
+                                                <a href="#" class="thumb"><img src="assets/images/last8.jpg" width="218" height="150" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="post-info-2">
+                                                <h4><a href="#" class="title">La pénurie en ropivacaïne se confirme!</a></h4>
+                                                <ul class="authar-info">
+                                                    <li><i class="ti-timer"></i>20 avril 2016</li>
+                                                </ul>
+                                                <p class="hidden-sm">Les ampoules de solutions injectables d'anesthésique local à base de ropivacaïne font l'objet de tensions d'approvisionnement.</p>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-item articles-list">
+                                            <div class="img-wrapper">
+                                                <a href="#" class="thumb"><img src="assets/images/last7.jpg" width="218" height="150" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="post-info-2">
+                                                <h4><a href="#" class="title">Universités infirmières de la SFETD 2018</a></h4>
+                                                <ul class="authar-info">
+                                                    <li><i class="ti-timer"></i>15 avril 2016</li>
+                                                </ul>
+                                                <p class="hidden-sm">Les universités infirmières 2018 auront lieu les 25, 26 et 27 mars. La thématique abordée sera « Rôle pivot de l’Infirmièr(e) Ressource Douleur (IRD) dans le parcours du patient souffrant de douleur chronique »</p>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-item articles-list">
+                                            <div class="img-wrapper">
+                                                <a href="#" class="thumb"><img src="assets/images/last6.jpg" width="218" height="150" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="post-info-2">
+                                                <h4><a href="#" class="title">Parution ouvrage - Que Sais-Je - hypnose</a></h4>
+                                                <ul class="authar-info">
+                                                    <li><i class="ti-timer"></i>5 avril 2016</li>
+                                                </ul>
+                                                <p class="hidden-sm">Parution du nouveau "Que sais-je?" (PUF) sur l'hypnose. Un état des connaissances précis en psychologie (et aussi en médecine et neurosciences), et des réponses aux principales questions que l'on se pose </p>
+                                            </div>
+                                        </div>
+                                    </div> <!-- /. post body -->
+                                    <!--Post footer-->
+                                    <div class="post-footer"> 
+                                        <div class="row thm-margin">
+                                            <div class="col-xs-12 col-sm-8 col-md-9 thm-padding">
+                                                <!-- pagination -->
+                                                <ul class="pagination">
+                                                    <li class="disabled"><span class="ti-angle-left"></span></li>
+                                                    <li class="active"><span>1</span></li>
+                                                    <li><a href="#">2</a></li>
+                                                    <li><a href="#">3</a></li>
+                                                    <li class="disabled"><span class="extend">...</span></li><li>
+                                                    <li><a href="#">12</a></li>
+                                                    <li><a href="#"><i class="ti-angle-right"></i></a></li>
+                                                </ul> <!-- /.pagination -->
+                                            </div>
+                                        </div>
+                                    </div> <!-- /.Post footer-->
+                                </div>
+                                <!-- END OF /. POST CATEGORY STYLE FOUR (Latest articles ) -->
+                        </div>   
+                    </div>
+                    <!-- END OF /. MAIN CONTENT -->
+                    <!-- START SIDE CONTENT -->
+                    <div class="col-sm-4 col-p rightSidebar">
+                        <div class="theiaStickySidebar">
+                            <!-- START ARCHIVE -->
+                            <div class="archive-wrapper">
+                                    <div id="datepicker"></div>
+                                </div>
+                                <!-- END OF /. ARCHIVE -->
+                                <!-- START POLL WIDGET -->
+                                <div class="panel_inner poll-widget">
+                                    <div class="panel_header">
+                                        <h4><strong>Adhérer à l'association</strong></h4>
+                                    </div>
+                                    <div class="panel_body poll-content">
+                                        <p>Les adhérents bénéficient de tarifs préférentiels pour le congrès national, l'accès à des newsletters et revues de la littérature, l'accès gratuit à la version électronique de l'European Journal of Pain en ligne etbeaucoup d’autres choses ...</p>
+                                        <a href="#" class="btn btn-news">Voir tout les avantages</a>
+                                    </div>
+                                </div>
+                                <!-- END OF /. POLL WIDGET -->
+                                <!-- START POLL WIDGET -->
+                                <div class="panel_inner poll-widget">
+                                        <div class="panel_header">
+                                            <h4><strong>Soutenir nos actions</strong></h4>
+                                        </div>
+                                        <div class="panel_body poll-content">
+                                            <p>Dans l’objectif de renforcer son soutien à larecherche, la SFETD a décidé de constituer un Fonds de dotation.</p>
+                                            <p style="color:rgb(180,1,59);">Le Fonds de dotation permettra à ses donateurs de soutenir financièrement des projets de recherche tout en défiscalisant.</p>
+                                            <a href="#" class="btn btn-news">Soutenir la SFETD</a>
+                                        </div>
+                                    </div>
+                                    <!-- END OF /. POLL WIDGET -->
+                                    <!-- START POLL WIDGET -->
+                                <div class="panel_inner poll-widget">
+                                        <div class="panel_header">
+                                            <h4><strong>Boîte à outils</strong></h4>
+                                        </div>
+                                        <div class="panel_body poll-content">
+                                            <p>Accédez à toutes nos ressources en ligne(publications, échelle de la douleur, sondage, vidéos ...)</p>
+                                            <a href="#" class="btn btn-news">Voir toutes les ressources</a>
+                                        </div>
+                                    </div>
+                                    <!-- END OF /. POLL WIDGET -->
+                                    <!-- START POLL WIDGET -->
+                                <div class="panel_inner poll-widget">
+                                        <div class="panel_header">
+                                            <h4><strong>Congrès annuel</strong></h4>
+                                        </div>
+                                        <div class="panel_body poll-content">
+                                            <p>Le 18ème congrès de la SFETD se tiendra du 14 au 16 novembre 2018 au Palais des Congrès de Lille.</p>
+                                            <a href="#" class="btn btn-news">Voir tout les avantages</a>
+                                        </div>
+                                    </div>
+                                    <!-- END OF /. POLL WIDGET -->
+                            <!-- START SOCIAL ICON -->
+                            <div class="social-media-inner">
+                                <ul class="social-media clearfix">
+                                    <li>
+                                        <a href="#" class="rss">
+                                            <i class="fa fa-rss"></i>
+                                            <div>2,035</div>
+                                            <p>Subscribers</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fb">
+                                            <i class="fa fa-facebook"></i>
+                                            <div>3,794</div>
+                                            <p>Fans</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="g_plus">
+                                            <i class="fa fa-google-plus"></i>
+                                            <div>941</div>
+                                            <p>Followers</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="you_tube">
+                                            <i class="fa fa-youtube-play"></i>
+                                            <div>7,820</div>
+                                            <p>Subscribers</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter">
+                                            <i class="fa fa-twitter"></i>
+                                            <div>1,562</div>
+                                            <p>Followers</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="pint">
+                                            <i class="fa fa-pinterest"></i>
+                                            <div>1,310</div>
+                                            <p>Followers</p>
+                                        </a>
+                                    </li>
+                                </ul> <!-- /.social icon -->     
+                            </div>
+                            <!-- END OF /. SOCIAL ICON -->
+                        </div>
+                    </div>
+                    <!-- END OF /. SIDE CONTENT -->
+                </div>
+            </div>
+        </main>
+        <!-- *** END OF /. PAGE MAIN CONTENT *** -->
+        <!-- *** START FOOTER *** -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <!-- START FOOTER BOX (About) -->
+                    <div class="col-sm-3 footer-box">
+                        <div class="about-inner">
+                            <img src="assets/images/logo.png" class="img-responsive" width="206" height="67" alt=""/>
+                            <ul><i class="ti-location-arrow"></i>
+                                <li>Secrétariat administratif
+                                    CHU - Hôpital de Cimiez
+                                    Pavillon Mossa -
+                                    Département Douleur
+                                    4 avenue Reine Victoria
+                                    BP 1179 - 06003 NICE cedex 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--  END OF /. FOOTER BOX (About) -->
+                    <!-- START FOOTER BOX (Twitter feeds) -->
+                    <div class="col-sm-3 footer-box">
+                        <div class="twitter-inner">
+                            <h3 class="wiget-title">Fil d'actualité</br>twitter</h3>
+                            <ul class="margin-top-60">
+                                <li>APPEL A PROJETS DE RECHERCHE 2018 - La SFETD soutient la recherche au travers de plusieurs appels d'offre (Prix Gisèle Guilbaud : 15.000 euros)</br><a href="https://t.co/erenthemeGHTQ">http://www.sfetd-douleur.org/appels-doffre-sfetd …</a></li>     
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- END OF /. FOOTER BOX (Twitter feeds) -->
+                    <!-- START FOOTER BOX (Category) -->
+                    <div class="col-sm-2 footer-box">
+                        <h3 class="wiget-title">Categories</h3>
+                        <ul class="menu-services">
+                            <li><a href="#">La SFETD</a></li>
+                            <li><a href="#">Les vidéos</a></li>
+                            <li><a href="#">La boite à outils</a></li>
+                            <li><a href="#">Contactez-nous</a></li>
+                            <li><a href="#">Offres d'emploies</a></li>
+                        </ul>
+                    </div>
+                    <!-- END OF /. FOOTER BOX (Category) -->
+                    <!-- START FOOTER BOX (Recent Post) -->
+                    <div class="col-sm-4 footer-box">
+                        <h3 class="wiget-title">Les 2 derniers articles</h3>
+                        <div class="footer-news-grid">
+                            <div class="news-list-item">
+                                <div class="img-wrapper">
+                                    <a href="#" class="thumb">
+                                            <img src="assets/images/last2.jpg" width="115" height="85" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="post-info-2">
+                                    <h5><a href="#" class="title">Journée BEST OF universités infirmières SFETD - ANNULÉE</a></h5>
+                                </div>
+                            </div>
+                            <div class="news-list-item">
+                                <div class="img-wrapper">
+                                    <a href="#" class="thumb">
+                                            <img src="assets/images/last1.jpg" width="115" height="85" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="post-info-2">
+                                    <h5><a href="#" class="title">BEST OF Universités psychologues SFETD - ANNULÉE</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END OF /. FOOTER BOX (Recent Post) -->
+                </div>
+            </div>
+        </footer>
+        <!-- *** END OF /. FOOTER *** -->
+        <!-- *** END OF /. SUB FOOTER *** -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- jquery ui js -->
+        <script src="assets/js/jquery-ui.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Bootsnav js -->
+        <script src="assets/bootsnav/js/bootsnav.js"></script>
+        <!-- theia sticky sidebar -->
+        <script src="assets/js/theia-sticky-sidebar.js"></script>
+        <!-- youtube js -->
+        <script src="assets/js/RYPP.js"></script>
+        <!-- owl include js plugin -->
+        <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+        <!-- custom js -->
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
+
